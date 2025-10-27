@@ -1,0 +1,120 @@
+ *{
+        box-sizing: border-box;
+
+    }
+    body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #74ebd5;
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+        }
+    .tipo-mantenimiento {
+        display: inline-block;
+        align-items: center;
+    }
+
+    .tipo-mantenimiento label {
+        display: inline-block;
+        width: 150px;
+    }
+    .tipo-mantenimiento .L_L { 
+                width: 300px;
+                padding: 10px;
+            }
+    .tipo-mantenimiento input[type="checkbox"] {
+        transform: scale(1.3);
+        accent-color: #1F4E78; 
+        margin: 10px 0;
+        width: 50px;
+    }
+
+    .form-container {
+            background-color: #fff;
+            width: 100%;
+            max-width: 600px;
+            padding: 25px 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+    h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 25px;
+            font-size: 1.6rem;
+        }
+    .container label { 
+            display:inline-block;
+            width: 100px;
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 6px;
+            font-size: 0.95rem;
+        }
+    .container .L_L { 
+            width: 150px;
+            padding: 10px 0; 
+            margin: 10px 0;
+        }
+    .txt_tabla{
+            display:inline-block;
+            width: 300px;
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 6px;
+            font-size: 0.95rem;
+    }
+    input {
+            width: 150px;
+            padding: 5px;
+            margin-bottom: 18px;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+    .Tabla {
+            display: block;
+            width: 100%;
+            height: 80px;
+            padding: 6px 8px;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            line-height: 1.3;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: none;
+        }
+    .Tabla-datos {
+            display: block;
+            width: 100%;
+            height: 150px;
+            padding: 6px 8px;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            line-height: 1.3;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: none;
+        }
+    button {
+            width: 100px;
+            background-color: #007BFF;
+            color: #fff;
+            font-size: 1rem;
+            padding: 12px;
+            margin: 20px 40% 0;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.1s ease;
+        }
+    .footer {
+            text-align: center;
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 15px;
+        }
